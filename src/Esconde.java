@@ -18,7 +18,6 @@ public class Esconde {
         System.out.println(regramenu.getMenu());
         boolean continuar = true;
 
-
         int escolha1 = scanner.nextInt();
         if (escolha1 == 1) {
             while (continuar) {
@@ -46,15 +45,11 @@ public class Esconde {
                         outrosJogadores.add(posicao);
                         }
                     }
-
-
                     System.out.println(esconderijos.toString());
                     System.out.println(outrosJogadores.toString());
                     System.out.println("Voce tem 3 tentativas para tentar achar pelo menos 1 BOT!");
                     System.out.println("Os BOTS estao espalhados numa lista com 10 posicoes");
                     System.out.println("Seu palpite deve ser um numero entre 1 e 10");
-
-
 
                     int auxiliar = 0;
                     int acertos = 0;
@@ -76,16 +71,12 @@ public class Esconde {
                                 }
                                 break;
                             }
-
                         }
                         auxiliar++;
-
                     }
                     System.out.println("Voce acertou: " + acertos);
                     System.out.println("E fez: " + pontos + " ponto(s)");
                 }
-
-
         }else if (escolha1 == 2){
             System.out.println(regramenu.getRegras());
             //continue;
