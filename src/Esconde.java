@@ -42,7 +42,7 @@ public class Esconde {
 
                         // posicao esta espalhada entre 10 numeros que é o tamanho da lista de esconderijos
                         int posicao = posicaoAleatoria.nextInt(9);
-                        esconderijos.set(posicao, "BOT: "+i);
+                        esconderijos.set(posicao, "BOT "+i);
                         outrosJogadores.add(posicao);
                         }
                     }
